@@ -1,5 +1,15 @@
 html {
     box-sizing: border-box;
+    font-family: 'Karla';
+    font-size: 16px;
+}
+
+body {
+    padding: 20px;
+}
+
+h2, h4, p {
+    margin: 0;
 }
 
 *, *:before, *:after {
@@ -9,11 +19,100 @@ html {
 #card {
     width: 1200px;
     height: 600px;
-    border: 3px solid red;
+    /*border: 3px solid red;*/
+    box-shadow: 6px 6px 24px 0px rgba(89,89,89,1);
+    border-radius: 6px;
+    overflow: hidden;
 }
 
 #cima {
     width: 100%;
     height: 40%;
-    border: 2px solid green;
+    /*border: 2px solid green;*/
+    padding: 40px;
+}
+
+#baixo {
+    width: 100%;
+    height: 60%;
+    /*border: 2px solid blue;*/
+    color: rgb(235, 235, 235);
+}
+
+#esquerda {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    /*border: 2px solid orange;*/
+    vertical-align: top;
+    background-color: #1da5a3;
+    padding: 40px;
+}
+
+#direita {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    /*border: 2px solid black;*/
+    vertical-align: top;
+    background-color: #0ed8d5;
+    padding: 40px;
+}
+
+#cima h2 {
+    color: #1da5a3;
+    margin: 0 0 30px 0;
+}
+
+#cima h4 {
+    color: #d1c40a;
+    margin: 0 0 14px 0;
+}
+
+#cima p {
+    color: rgb(83, 83, 83);
+}
+
+button {
+    color: rgb(235, 235, 235);
+    background-color: #d1c40a;
+    border: none;
+    padding: 16px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+#preco {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+#esquerda h4 {
+    margin: 0 0 30px 0;
+}
+
+#tempo, #preco {
+    display: inline-block;
+}
+
+#preco-ctn {
+    margin: 0 0 14px 0;
+}
+
+#tempo {
+    position: relative;
+    top: -2px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin: 0 0 0 6px;
+}
+
+#esquerda p {
+    font-size: 0.9rem;
+    margin: 0 0 80px 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
 }
