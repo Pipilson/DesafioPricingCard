@@ -82,6 +82,13 @@ button {
     border-radius: 8px;
 }
 
+button:hover {
+    cursor: pointer;
+    background-color: #c4bb43;
+    transform: scale(1.02);
+
+}
+
 #preco {
     font-weight: 700;
     font-size: 1.4rem;
@@ -115,4 +122,6 @@ button {
 ul {
     padding: 0;
     list-style: none;
+    font-size: 0.9rem;
+    opacity: 0.8;
 }
